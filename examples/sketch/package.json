@@ -8,7 +8,7 @@
   "dependencies": {
     "expo": "^26.0.0",
     "expo-asset-utils": "^0.0.2",
-    "expo-pixi": "file:../../expo-pixi-v0.3.65.tgz",
+    "expo-pixi": "file:../../expo-pixi-v0.3.4.tgz",
     "react": "16.3.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz"
   },

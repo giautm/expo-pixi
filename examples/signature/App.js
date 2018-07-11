@@ -16,16 +16,7 @@ function uuidv4() {
 export default class App extends Component {
   state = {
     image: null,
-    strokeColor: Math.random() * 0xffffff,
-    strokeWidth: Math.random() * 30 + 10,
-    lines: [
-      {
-        points: [{ x: 300, y: 300 }, { x: 600, y: 300 }, { x: 450, y: 600 }, { x: 300, y: 300 }],
-        color: 0xff00ff,
-        alpha: 1,
-        width: 10,
-      },
-    ],
+    strokeColor: 0,
     appState: AppState.currentState,
   };
 
@@ -60,10 +51,8 @@ export default class App extends Component {
               ref={ref => (this.sketch = ref)}
               style={styles.sketch}
               strokeColor={'blue'}
-              strokeWidth={5}
               strokeAlpha={1}
               onReady={this.onReady}
-              initialLines={this.state.lines}
             />
           </View>
         </View>

@@ -1,6 +1,6 @@
 {
   "name": "expo-pixi",
-  "version": "0.3.76",
+  "version": "0.3.0",
   "description": "Tools for using pixi in Expo",
   "license": "MIT",
   "readmeFilename": "README.md",
